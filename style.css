@@ -11,7 +11,7 @@ a.button {
     appearance: button;
 
     text-decoration: none;
-    color: initial;
+    color: black;
 }
 
 a.button {
@@ -29,7 +29,7 @@ a.button {
     appearance: button;
 
     text-decoration: none;
-    color: initial;
+    color: black;
 }
 
 header{
@@ -38,17 +38,20 @@ header{
 
 }
 body {
-	background-color: #e0e0e0;
+	background-color: #001942;
 }
 
 h1 {
+	font : arial;
+	color: white;
 	position: absolute;
 	left: 20%;
 	top: 20%;
 }
 body{
-	margin: 0px;
-	font-family: ;
+@font-face {
+  font-family: Hackerchaos;
+  src: url(dafont.com);
 }
 
 section{
@@ -60,7 +63,7 @@ section{
 }
 
 header{
-	background-color: chinesewhite;
+	background-color: navy;
 	color: white; /* more readable on an orange background */
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -120,10 +123,6 @@ nav a:hover{
 .padded{
 	padding: 20px; /* I add this to cells to add a little padding*/
 }
-
-
-
-
 
 
 
